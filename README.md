@@ -1,45 +1,26 @@
-Open data on COVID-19 in Malaysia
-The scope and granularity of data in this repo will evolve over time.
+This dataset has been forked from covid19-public, in particular from  MoH-Malaysia/covid19-public. 
+It is open data on COVID-19 cases in Malaysia.
 
-Documentation and data descriptions contained within subfolders.
-Submit pull requests to share your work for the community or request more data.
-All data is correct as of 2359 of date, unless stated otherwise.
+## File naming convention
 
-Cases and Testing
+| Filename | Naming convention | Update frequency |
+| :--- | :---: | :---: |
+| cases_malaysia.csv | Static name | Daily by 2359 (for T-0) |
+| deaths_malaysia.csv | Static name | Daily by 2359 (for T-0) |
+| icu.csv | Static name |  Daily by 2359 (for T-0) |
+
+## Files extracted 
 cases_malaysia.csv: Daily recorded COVID-19 cases at country level.
-cases_state.csv: Daily recorded COVID-19 cases at state level.
-clusters.csv: Exhaustive list of announced clusters with relevant epidemiological datapoints.
-tests_malaysia.csv: Daily tests (note: not necessarily unique individuals) by type at country level.
-tests_state.csv: Daily tests (note: not necessarily unique individuals) by type at state level.
-Healthcare
-pkrc.csv: Flow of patients to/out of Covid-19 Quarantine and Treatment Centres (PKRC), with capacity and utilisation.
-hospital.csv: Flow of patients to/out of hospitals, with capacity and utilisation.
 icu.csv: Capacity and utilisation of intensive care unit (ICU) beds.
 Deaths
 deaths_malaysia.csv: Daily deaths due to COVID-19 at country level.
-deaths_state.csv: Daily deaths due to COVID-19 at state level.
-Vaccinations
-vax_malaysia.csv: Vaccinations (daily and cumulative, by dose type and brand) at country level.
-vax_state.csv: Vaccinations (daily and cumulative, by dose type and brand) at state level.
-vax_district.csv: Vaccinations (daily and cumulative, by dose type and brand) at district level.
-vax_school.csv: Vaccination coverage for public schools.
-vax_demog_age.csv': Vaccinations by age group, at district level.
-vax_demog_age_children.csv': Vaccinations by age group with single-year granularity for individuals < 18yo, at district level.
-vax_demog_sex.csv': Vaccinations by sex, at district level.
-vax_demog_ethnicity.csv': Vaccinations by ethnicity, at district level.
-vax_demog_nationality.csv': Vaccinations by nationality, at district level.
-vax_demog_highrisk.csv': Vaccinations for special categories (healthcare workers, OKU, individuals with comorbidities) at district level.
-Mobility and Contact Tracing
-checkin_malaysia.csv: Daily checkins on MySejahtera at country level.
-checkin_state.csv: Daily checkins on MySejahtera at state level.
-checkin_malaysia_time.csv: Time distribution of daily checkins on MySejahtera at country level.
-trace_malaysia.csv: Daily casual contacts traced and hotspots identified by HIDE, at country level.
-Static data
-population.csv (last updated from DOSM 2020 census, as published in 2022):
-idxs: integer coding for states (employed in cases linelist, cluster file, and school vax file)
-pop: total population (all other columns are subset of pop)
-pop_18: population aged 18+
-pop_60: population aged 60+, also a subset of pop_18
-pop_12: population aged 12-17
-pop_5: population aged 5-11
-Static data will remain unchanged unless there is an update from the source, e.g. if DOSM makes an update to population estimates. We provide this data here not to supersede the source, but rather to be transparent about the data we use to compute key statistics e.g. the % of the population that is vaccinated. We also hope this ensures synchronisation (across various independent analysts) of key statistics.
+
+## Metadata for Variables
+## Cases and Testing
+
+1) `date`: yyyy-mm-dd format; data correct as of 1200hrs on that date
+2) `cases_new`: cases reported in the 24h since the last report
+3)  `deaths_new`: deaths due to COVID-19 based on **date reported to public**
+4)  `icu_x`: total number of individuals in category `x` under intensive care, where `x` can be  suspected/probable, COVID-19 positive, or non-COVID; this is a stock variable
+
+
