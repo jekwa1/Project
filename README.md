@@ -11,8 +11,9 @@ It is open data on COVID-19 cases in Malaysia.
 
 ## Files extracted 
 cases_malaysia.csv: Daily recorded COVID-19 cases at country level.
+
 icu.csv: Capacity and utilisation of intensive care unit (ICU) beds.
-Deaths
+
 deaths_malaysia.csv: Daily deaths due to COVID-19 at country level.
 
 ## Metadata for Variables
