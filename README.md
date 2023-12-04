@@ -24,4 +24,8 @@ deaths_malaysia.csv: Daily deaths due to COVID-19 at country level.
 3)  `deaths_new`: deaths due to COVID-19 based on **date reported to public**
 4)  `icu_x`: total number of individuals in category `x` under intensive care, where `x` can be  suspected/probable, COVID-19 positive, or non-COVID; this is a stock variable
 
+## filtered_my_covid.csv
+1)`cases_new`: cases reported in the 24h since the last report
+2)`deaths_new`: deaths due to COVID-19 based on **date reported to public**
+3)`icu_x`: total number of individuals in category `x` under intensive care, where `x` can be  suspected/probable, COVID-19 positive, or non-COVID; this is a stock variable
 
