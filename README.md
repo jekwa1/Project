@@ -17,15 +17,12 @@ icu.csv: Capacity and utilisation of intensive care unit (ICU) beds.
 deaths_malaysia.csv: Daily deaths due to COVID-19 at country level.
 
 ## Metadata for Variables
-## Cases and Testing
+## filtered_my_covid.csv
 
 1) `date`: yyyy-mm-dd format; data correct as of 1200hrs on that date
 2) `cases_new`: cases reported in the 24h since the last report
 3)  `deaths_new`: deaths due to COVID-19 based on **date reported to public**
 4)  `icu_x`: total number of individuals in category `x` under intensive care, where `x` can be  suspected/probable, COVID-19 positive, or non-COVID; this is a stock variable
 
-## filtered_my_covid.csv
-1)`cases_new`: cases reported in the 24h since the last report
-2)`deaths_new`: deaths due to COVID-19 based on **date reported to public**
-3)`icu_x`: total number of individuals in category `x` under intensive care, where `x` can be  suspected/probable, COVID-19 positive, or non-COVID; this is a stock variable
+
 
