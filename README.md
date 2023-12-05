@@ -24,5 +24,15 @@ deaths_malaysia.csv: Daily deaths due to COVID-19 at country level.
 3)  `deaths_new`: deaths due to COVID-19 based on **date reported to public**
 4)  `icu_x`: total number of individuals in category `x` under intensive care, where `x` can be  suspected/probable, COVID-19 positive, or non-COVID; this is a stock variable
 
+## Seven_days_mean_variant
 
+1) 'date' : yyyy-mm-dd format; intervals of 7 days
+   
+2) 'cases_new' : average number of cases reported in that particular week
+   
+3) 'cases_x_y' : average number of cases reported between the ages of x and y; eg 0 and 4
+   
+4) deaths_new: average number of deaths reported in that particular week
+   
+5) icu_covid': average number of individuals under intensive care that are Covid-19 positive
 
