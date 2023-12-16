@@ -8,6 +8,8 @@ It is open data on COVID-19 cases in Malaysia.
 | cases_malaysia.csv | Static name | Daily by 2359 (for T-0) |
 | deaths_malaysia.csv | Static name | Daily by 2359 (for T-0) |
 | icu.csv | Static name |  Daily by 2359 (for T-0) |
+| seven_days_mean_variant.csv | Static name | 7 day average |
+| my_covid_variant.csv | Static name | Daily 
 
 ## Files extracted 
 cases_malaysia.csv: Daily recorded COVID-19 cases at country level.
