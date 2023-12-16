@@ -18,6 +18,11 @@ icu.csv: Capacity and utilisation of intensive care unit (ICU) beds.
 
 deaths_malaysia.csv: Daily deaths due to COVID-19 at country level.
 
+## Files created
+seven_days_mean_variant.csv: 7 day average cases per selected variable
+
+my_covid_variant.csv: Daily cases and respective variant
+
 ## Metadata for Variables
 ## my_covid_variant.csv
 1) `date`: yyyy-mm-dd format; data correct as of 1200hrs on that date
