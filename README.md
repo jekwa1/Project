@@ -35,7 +35,7 @@ my_covid_variant.csv: Daily cases and respective variant
 
 5)  `icu_x`: total number of individuals in category `x` under intensive care, where `x` can be  suspected/probable, COVID-19 positive, or non-COVID; this is a stock variable
 
-6)  'prominent_variant':  types of prominent COVID-19 variant in Malaysia
+6)  `prominent_variant`:  types of prominent COVID-19 variant in Malaysia
 ## seven_days_mean_variant.csv
 
 1) 'date' : yyyy-mm-dd format; intervals of 7 days
